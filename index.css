@@ -1,0 +1,27 @@
+.body{
+    background-color:lightgrey;
+}
+.box-part{
+    margin: 10px ;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+}
+#table{
+    padding: 100px 10px;
+    border: 2px solid black;
+    margin: 20px 50px;
+
+}
+.form{
+    margin-top: -10px;
+    margin-bottom: 150px;
+}
+input{
+    float:right;
+    }
+    select
+    {
+    float: right;
+        width: 185px;
+        height: 30px;
+        }

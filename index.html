@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="box-part text-center">
+                        <h1>Event 1</h1>
+                        <h4>Number of Available Seats: 23</h4>
+                        <div class="box 1">
+                    <div id="table">
+                        <div class="rectangle" style="
+                        height: 160px;
+                        width: 140px;
+                        background-color: #FFF;
+                        /* border: 2px; */
+                        /* border-color:#000; */
+                        border: solid;
+                       margin-left: 10%;
+                    "><form action="mains"><input type="image" src="image_filename.jpg" alt="Image" width="140px" height="160px"></form></div>
+                        <form action="main" style="float: right;margin-top:-17%;text-align: start;" oninput="x.value=parseInt(seats.value)">
+                            <label for="Name" class="test">Name :</label>
+                            <input type="text" name="name" id="Name"><br>
+                            <label for="email">Email :</label>
+                            <input type="email" name="email" id="email"><br>
+                            <label for="Phone No">Phone No :</label>
+                            <input type="text" name="phone No" id="Phone No"><br>
+                            <label for="seats">Number Of Seats :</label>
+                            <select name="name" id="seats"><option value="1">1</option><option value="2">2</option></select><br>
+                            <label for="Name Of Attendee">Name Of Attendee :</label>
+                            <output name="x" for="seats"></output>
+                            <input type="text" name="name" id="attendee"><br>
+                            <input type="button" value="cancel">
+                            <input type="button" value="Submit">
+                        </form>
+                     </div>   
+                     </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
